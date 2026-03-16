@@ -1,0 +1,18 @@
+class Student 
+{
+	int rollnumber;
+	String name;
+	int age;
+	String course;
+
+	public static void main(String[] args) 
+	{
+		Student student=new Student();
+		student.rollnumber=12;
+		student.name="Akash";
+		student.age=25;
+		student.course="CSE";
+		System.out.println(student.rollnumber);
+
+	}
+}

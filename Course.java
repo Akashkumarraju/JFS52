@@ -1,0 +1,24 @@
+class Course 
+{
+	
+		int courseId;
+		String courseName;
+		int courseDuration;
+
+		public static void main(String args[])
+		{
+			Course course =new Course();
+			Course couser1=new Course();
+
+
+			course.courseId=100;
+			course.courseName="JavaFullStack";
+			course.courseDuration=100;
+			System.out.println(course.courseId);
+			System.out.println(course.courseName);
+			System.out.println(course.courseDuration);
+
+
+		}
+	
+}
